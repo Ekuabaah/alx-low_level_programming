@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int m;
+	int i;
 
-	for (m = '0'; m <= '9'; m++)
-		printf("%d", m);
+	for (i = '0'; i <= '9'; i++)
+		printf("%d", i);
 	printf("\n");
 	return (0);
 }
