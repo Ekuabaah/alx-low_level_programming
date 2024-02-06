@@ -6,12 +6,11 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
 	int i;
 
-	for (i = '0'; i <= '9'; i++)
-		printf("%f", i);
-	printf("\n");
+	for (i = '0'; i < '10'; i++)
+		printf("%d\n", i);
 	return (0);
 }
