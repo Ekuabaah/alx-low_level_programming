@@ -9,6 +9,7 @@
 int main(void)
 {
 	char alphas;
+
 	for (alphas = 'a'; alphas <= 'z'; alphas++)
 		putchar(alphas);
 	for (alphas = 'A'; alphas <= 'Z'; alphas++)
