@@ -16,8 +16,10 @@ int main(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha != letter && alpha != letters)
-		       putchar(alpha);
+		{
+			putchar(alpha);
+		}
+		putchar('\n');
 	}
-        putchar('\n');
-        return (0);
-}	
+	return (0);
+}
